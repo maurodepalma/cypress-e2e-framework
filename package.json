@@ -1,0 +1,22 @@
+{
+  "name": "cypress-e2e-framework",
+  "version": "1.0.0",
+  "description": "Cypress E2E Automation Framework Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "e2e",
+    "test",
+    "cypress",
+    "automation",
+    "framework"
+  ],
+  "author": "Mauro De Palma",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.4"
+  }
+}
