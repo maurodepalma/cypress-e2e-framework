@@ -1,3 +1,5 @@
+// Added a setTimeout to the line 39 in todoModel.js file to test the retry-ability
+
 describe('Retry-Ability session', function(){
 //Hook - beforeEach
     beforeEach(function(){
