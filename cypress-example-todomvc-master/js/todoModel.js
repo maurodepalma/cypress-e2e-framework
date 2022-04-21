@@ -33,7 +33,11 @@ var app = app || {}
       completed: false,
     })
 
-    this.inform()
+    //this.inform()
+
+    setTimeout(()=>{
+      this.inform
+    }, 3000)
   }
 
   app.TodoModel.prototype.toggleAll = function (checked) {
