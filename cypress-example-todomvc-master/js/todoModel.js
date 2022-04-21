@@ -33,7 +33,8 @@ var app = app || {}
       completed: false,
     })
 
-    //this.inform()
+    // Set a delay for adding an item to actually test the retry-ability
+    // this.inform()
 
     setTimeout(()=>{
       this.inform
