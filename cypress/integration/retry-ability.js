@@ -10,9 +10,20 @@ describe('Retry-Ability session', function(){
         .type('todo-B{enter}')
     })
 
+// Test #1
     it('Should create two items', ()=> {
-        cy.get('.todo-list li')
+        cy.get('.todo-list li', {timeout:20000}) // Added a timeout to make the retry-ability wait longer
         .should('have.length', 2) // Assertion. (With have.length we can set a specific number of items for the expected result)
     });
 
-})
+// Test #2
+    it('Should contain the expected text', ()=> {
+        cy.get('.todo-list li')
+        .should('have.length', 2)
+        .and($li => { // Assertion to not repeat .should from line 20. $ sets an alias
+            expect($li.get(0).textContent, 'first-item').to.equal('todo-A') // Search the alias on the first item of the list + searchs a specific string
+            expect($li.get(1).textContent, 'second-item').to.equal('todo-B')
+        })
+    });
+
+});

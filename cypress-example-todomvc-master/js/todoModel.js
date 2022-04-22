@@ -37,7 +37,7 @@ var app = app || {}
     // this.inform()
 
     setTimeout(()=>{
-      this.inform
+      this.inform()
     }, 3000)
   }
 
