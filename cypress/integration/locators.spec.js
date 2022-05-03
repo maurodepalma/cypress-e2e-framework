@@ -38,5 +38,5 @@ describe('Locators in Cypress', function(){
     // Parent method gets the parent from an element
     it('PARENT mwthod', function(){
         cy.get('form').parent().should('have.class', 'login-box') // We select <form> and then their parent and validate that parent has a class "login-box"
-    })
+    });
 });
