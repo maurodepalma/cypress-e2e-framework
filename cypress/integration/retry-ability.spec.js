@@ -1,6 +1,6 @@
 // We are working with the cypress-example-todomvc-master app
 /* To start the app type the following lines on console:
-cd cypress-example-todomvc-master
+cd cypress-example-todomvc
 npm start */
 // Added a setTimeout to the line 39 in js/todoModel.js to test the retry-ability
 
