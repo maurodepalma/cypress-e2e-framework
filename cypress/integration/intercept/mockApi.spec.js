@@ -15,7 +15,7 @@ describe('Intercept Demo', () => {
 
         cy.intercept('GET', '/todos', {
             fixture: 'intercept/interceptFixture.json'
-        }).as('getTodos-Fixture'); //This is an alias
+        }).as('getTodos-Fixture'); //This is an alias.
 
         cy.visit('http://localhost:3000/')
 

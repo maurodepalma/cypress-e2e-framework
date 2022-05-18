@@ -6,9 +6,9 @@
   "scripts": {
     "test": "test",
     "cypress:open": "cypress open",
-    "cypress:runRetryAbility": "cypress run --spec cypress/integration/retry-ability.js",
-    "cypress:runRetryAbility-chrome": "cypress run --headed --browser chrome --spec cypress/integration/retry-ability.js",
-    "cypress:runRetryAbility-chrome-headless": "cypress run --headedless --browser chrome --spec cypress/integration/retry-ability.js"
+    "cypress:runRetryAbility": "cypress run --spec cypress/integration/retry-ability/retry-ability.js",
+    "cypress:runRetryAbility-chrome": "cypress run --headed --browser chrome --spec cypress/integration/retry-ability/retry-ability.js",
+    "cypress:runRetryAbility-chrome-headless": "cypress run --headedless --browser chrome --spec cypress/integration/retry-ability/retry-ability.js"
   },
   "keywords": [
     "e2e",
