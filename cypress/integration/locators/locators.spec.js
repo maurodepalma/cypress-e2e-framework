@@ -1,4 +1,4 @@
-// Variables for login
+// Variables for login feature
 let username = 'standard_user';
 let password = 'secret_sauce';
 
