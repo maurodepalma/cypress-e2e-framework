@@ -1,4 +1,4 @@
-// Variables for login
+// Variables for login, test
 let username = 'standard_user';
 let password = 'secret_sauce';
 
